@@ -1,0 +1,31 @@
+type: task
+number: 0
+title: "Настроить инфраструктуру проекта"
+
+description: |
+  Первоначальная настройка проекта:
+  - Создать Git репозиторий
+  - Настроить backend (FastAPI)
+  - Настроить frontend (React + Vite)
+  - Docker Compose для разработки
+  - CI/CD pipeline (GitHub Actions)
+
+status: done
+priority: high
+type: task
+
+assignee: ivan.petrov
+reporter: ivan.petrov
+
+start_date: 2026-01-15
+due_date: 2026-01-18
+estimated_hours: 12
+actual_hours: 10
+
+labels:
+  - devops
+  - infrastructure
+
+completed_at: 2026-01-18T18:00:00Z
+created_at: 2026-01-15T10:00:00Z
+updated_at: 2026-01-18T18:00:00Z

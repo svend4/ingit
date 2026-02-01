@@ -1,0 +1,18 @@
+# Development dependencies
+-r requirements.txt
+
+# Code Quality
+pylint==3.0.3
+bandit==1.7.6  # Security linter
+safety==2.3.5  # Dependency security checker
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.3
+
+# Debugging
+ipdb==0.13.13
+ipython==8.19.0
+
+# Performance
+py-spy==0.3.14  # Profiler
