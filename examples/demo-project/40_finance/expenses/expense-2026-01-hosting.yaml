@@ -1,0 +1,48 @@
+type: expense
+title: "Оплата хостинга DigitalOcean"
+description: "Месячная оплата VPS для dev/staging окружений"
+
+# Финансовые данные
+date: 2026-01-25
+amount: -150.00
+currency: USD
+amount_rub: -13500.00  # По курсу 90 RUB/USD
+
+# Категоризация
+category: infrastructure
+subcategory: hosting
+project: ecommerce-mvp
+
+# Детали
+vendor: "DigitalOcean"
+invoice_number: "DO-2026-01-123456"
+
+# Оплата
+payment_method: bank_card
+payment_date: 2026-01-25
+card_last4: "4242"
+
+# Документы
+receipt_path: "40_finance/receipts/2026-01-digitalocean.pdf"
+
+# Связи
+task_id: null  # Не связано с конкретной задачей
+recurring: true
+recurrence_period: monthly
+
+# Налоги
+tax_deductible: true
+
+# Метаданные
+tags:
+  - hosting
+  - cloud
+  - recurring
+
+notes: |
+  Оплачен тариф $150/месяц:
+  - 2x VPS (4GB RAM, 2 vCPU) = $100
+  - Managed Database PostgreSQL = $30
+  - Backups = $20
+
+created_at: 2026-01-25T14:30:00Z

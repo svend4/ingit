@@ -1,0 +1,66 @@
+type: project
+name: "E-Commerce Platform MVP"
+slug: ecommerce-mvp
+description: |
+  Разработка минимально жизнеспособного продукта для платформы электронной коммерции.
+  Включает базовую функциональность: каталог товаров, корзина, оформление заказа.
+
+status: active
+visibility: private
+
+# Команда
+owner:
+  type: user
+  name: "Иван Петров"
+  email: "ivan.petrov@example.com"
+
+team:
+  - name: "Мария Сидорова"
+    role: "Frontend Developer"
+    email: "maria.sidorova@example.com"
+  - name: "Алексей Иванов"
+    role: "Backend Developer"
+    email: "alexey.ivanov@example.com"
+
+# Временные рамки
+start_date: 2026-01-15
+target_release: 2026-04-01
+duration_weeks: 12
+
+# Финансы
+budget: 750000
+currency: RUB
+billing_type: fixed_price
+
+# Технологии
+tech_stack:
+  backend:
+    - Python 3.11
+    - FastAPI
+    - PostgreSQL
+    - Redis
+  frontend:
+    - React 18
+    - TypeScript
+    - Ant Design
+    - Vite
+  infrastructure:
+    - Docker
+    - Nginx
+    - GitHub Actions
+
+# Контакты клиента
+client:
+  company: "ООО Торговый Дом"
+  contact_person: "Петр Смирнов"
+  email: "p.smirnov@trade-house.ru"
+  phone: "+7 (495) 123-45-67"
+
+# Метаданные
+tags:
+  - ecommerce
+  - mvp
+  - saas
+
+created_at: 2026-01-15T10:00:00Z
+updated_at: 2026-02-01T14:30:00Z
